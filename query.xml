@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<query>
+
+  <insert>
+   <table>studentinfo</table>
+    <value>
+     <name>fahim</name>
+     <roll>3</roll>
+     <school>bnmpc</school>
+     <age>13</age>
+    </value>
+   </insert>
+
+  <insert>
+   <table>studentinfo</table>
+    <value>
+     <name>faheem</name>
+     <roll>43</roll>
+     <school>bnmpc</school>
+     <age>14</age>
+    </value>
+   </insert>
+
+  <insert>
+   <table>studentinfo</table>
+   <value>
+     <name>alif</name>
+     <roll>23</roll>
+     <school>bnmpc</school>
+     <age>12</age>
+   </value>
+  </insert>
+
+  <update>
+   <table>studentinfo</table>
+   <value>
+    <age>14</age>
+   </value>
+   <condition>
+    <roll>23</roll>
+   </condition>
+
+  </update>
+  <update>
+   <table>studentinfo</table>
+   <value>
+    <name>faheem</name>
+    <school>rifles</school>
+   </value>
+   <condition>
+    <roll>3</roll>
+   </condition>
+
+  </update>
+
+   <delete>
+   <table>studentinfo</table>
+   <condition>
+    <roll>20</roll>
+   </condition>
+  </delete>
+
+  <delete>
+   <table>studentinfo</table>
+   <condition>
+    <name>faheem</name>
+    <school>bnmpc</school>
+   </condition>
+  </delete>
+
+  <select>
+   <table>studentinfo</table>
+   <columns>
+    <column>name</column>
+    <column>roll</column>
+   </columns>
+  </select>
+
+  <select>
+   <table>studentinfo</table>
+   <columns>
+    <column>name</column>
+    <column>school</column>
+   </columns>
+  </select>
+
+   <select>
+   <table>studentinfo</table>
+   <columns>
+    <column>name</column>
+    <column>roll</column>
+    <column>school</column>
+    <column>age</column>
+   </columns>
+  </select>
+
+</query>
+
+

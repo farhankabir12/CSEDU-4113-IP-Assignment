@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+ <host>localhost</host>
+ <user>root</user>
+ <passwd>123456</passwd>
+ <database>database1</database>
+  <dbtype>MySQL</dbtype>
+</config>
+
+
